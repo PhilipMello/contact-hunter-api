@@ -1,0 +1,26 @@
+{
+  "name": "contacthunter-api",
+  "version": "1.0.0",
+  "description": "Contact Hunter API – Scrape Google Maps & Website Contact Info",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "google-maps",
+    "scraper",
+    "contact-info",
+    "api",
+    "puppeteer",
+    "lead-generation"
+  ],
+  "author": "Rajeevdaz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
