@@ -4,12 +4,6 @@ A fast, lightweight API to **scrape Google Maps businesses** and **extract conta
 
 ---
 
-# 🚀 Contact Hunter API
-
-A fast, lightweight API to **scrape Google Maps businesses** and **extract contact info from websites** (emails, Facebook, Instagram). Designed for integration with **n8n**, personal lead generation tools, or SaaS workflows.
-
----
-
 ## ✨ Features
 ✅ Google Maps scraping (business name, phone, website, ratings, reviews)  
 ✅ Website scraping for emails, Facebook & Instagram links  
