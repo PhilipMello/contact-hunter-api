@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyParser.json());
 
 const PORT = 3000;
-const API_KEY = process.env.API_KEY || 'api_live_676';
+const API_KEY = process.env.API_KEY;
 
 // 🛡️ Middleware to check API key
 function apiKeyMiddleware(req, res, next) {
