@@ -16,7 +16,7 @@ COPY . .
 RUN apt update && apt upgrade -y && \
     echo "Europe/Lisbon" > /etc/timezone && \
     apt install -y \
-    wget curl git nano \
+    curl \
     libasound2t64 libatk-bridge2.0-0t64 libatk1.0-0t64 \
     libcups2t64 libdrm2 libgbm1 libgtk-3-0t64 libnss3 \
     libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 \
