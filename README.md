@@ -1,3 +1,9 @@
+# 🐳 Docker Container Image
+### Run ▶
+```
+docker run -d --name contacthunter -p 3000:3000 atomycloud/contacthunter:0.1
+```
+
 # 🚀 Contact Hunter API
 
 A fast, lightweight API to **scrape Google Maps businesses** and **extract contact info from websites** (emails, Facebook, Instagram). Designed for integration with **n8n**, personal lead generation tools, or SaaS workflows.
